@@ -8,6 +8,8 @@
 html {
   scroll-behavior: smooth;
   font-size: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 @media (max-width: 480px) {
@@ -532,4 +534,5 @@ body {
   .contact-form .btn {
     width: 100%;
   }
+
 }
