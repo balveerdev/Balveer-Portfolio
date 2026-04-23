@@ -572,7 +572,7 @@ scroll-margin-top: 80px;
    /* ═══════════════════════════════════════════
        SKILLS SECTION — OVERRIDE
     ═══════════════════════════════════════════ */
-    #skills.skills-section {
+    #skills-sec#skills.skills-section {
       background: #131313;
       padding: 2rem 5vw;
       text-align: left;
@@ -862,7 +862,7 @@ scroll-margin-top: 80px;
 
     /* Mobile */
     @media (max-width: 600px) {
-      #skills.skills-section,
+      #skills-sec#skills.skills-section,
       #projects.projects-section {
         padding: 5rem 5vw;
       }

@@ -113,7 +113,7 @@ const handleWhatsApp = () => {
      <nav className="navbar">
         <div className="logo">BALVEER.DEV</div>
         <input type="checkbox" id="menu-toggle" hidden/>
-        <label for="menu-toggle" className="menu-icon"><i className="fas fa-bars"></i></label>
+        <label htmlFor="menu-toggle" className="menu-icon"><i className="fas fa-bars"></i></label>
         <ul className="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -185,7 +185,7 @@ const handleWhatsApp = () => {
         </div>
     </section>
 
-<section id="skills" class="skills-section">
+<div id="skills-sec" className="skills-section">
     <section id="skills" className="skills-section">
    
  <div className="s-label reveal">Technical Proficiency</div>
@@ -301,7 +301,7 @@ const handleWhatsApp = () => {
         <div className="s-label reveal">Selected Work</div>
         <h2 className="s-heading reveal delay-1">My Projects</h2>
       </div>
-      <a href="#" className="view-all">View All</a>
+      <a href="#home" className="view-all">View All</a>
     </div>
 
     <div className="new-projects-grid">
@@ -460,7 +460,8 @@ const handleWhatsApp = () => {
     <p>Crafting frontend experiences with code & creativity ✨</p>
     <p style={{ marginTop: "12px" }}>© 2025 Balveer Solanki. All rights reserved.</p>
   </footer>
-  </section>
+  </div>
+  <ToastContainer position="top-right" autoClose={2000} />
     </>
   );
 }
