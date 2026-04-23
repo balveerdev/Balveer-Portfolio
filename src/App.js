@@ -115,11 +115,11 @@ const handleWhatsApp = () => {
         <input type="checkbox" id="menu-toggle" hidden/>
         <label htmlFor="menu-toggle" className="menu-icon"><i className="fas fa-bars"></i></label>
         <ul className="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home" rel="noopener noreferrer">Home</a></li>
+            <li><a href="#about" rel="noopener noreferrer">About</a></li>
+            <li><a href="#skills" rel="noopener noreferrer">Skills</a></li>
+            <li><a href="#projects" rel="noopener noreferrer">Projects</a></li>
+            <li><a href="#contact" rel="noopener noreferrer">Contact</a></li>
         </ul>
     </nav>
 
@@ -131,8 +131,8 @@ const handleWhatsApp = () => {
                 <p className="s-label  reveal">WE DESIGN & BUILD BRANDS</p>
                 <h1 className="reveal delay-1">Hi, I am <span>Balveer Solanki</span> <br/>I build responsive & modern websites.</h1>
                 <div className="buttons reveal delay-2">
-                    <a href="#contact" className="btn primary">Hire me</a>
-                    <a href={resume} className="btn outline" download>
+                    <a href="#contact" rel="noopener noreferrer" className="btn primary">Hire me</a>
+                    <a href={resume} rel="noopener noreferrer" className="btn outline" download>
                         Download CV
                     </a>
                 </div>
@@ -149,7 +149,7 @@ const handleWhatsApp = () => {
         <div className="container">
             <div className="about-grid">
                 <div className="about-img reveal-left">
-                    <img src={introImg} alt="Profile Picture"/>
+                    <img src={introImg} alt="Balveer Solanki"/>
                 </div>
                 <div className="about-content">
                     <h5 className="s-label reveal">MY INTRODUCTION</h5>
@@ -309,7 +309,7 @@ const handleWhatsApp = () => {
       {/* <!-- Featured: Shoes Store --> */}
       <a href="https://swift-kicks-m9et.vercel.app" target="_blank" rel="noopener" className="new-project-card featured reveal delay-1">
         <div className="new-project-thumb">
-          <img src={s1} alt="Shoes Store – Trendy Slick Pro" loading="lazy" />
+          <img src={s1} alt="Trendy Slick Pro project" loading="lazy" />
           <div className="thumb-overlay"><span>Live Preview</span></div>
         </div>
         <div className="new-project-body">
@@ -333,7 +333,7 @@ const handleWhatsApp = () => {
       {/* <!-- Card 2: Event Organiser --> */}
       <a href="https://event-organiser-kappa.vercel.app" target="_blank" rel="noopener" className="new-project-card reveal delay-2">
         <div className="new-project-thumb">
-          <img src={s2} alt="Solanki Events" loading="lazy" />
+          <img src={s2} alt="Solanki Events project" loading="lazy" />
           <div className="thumb-overlay"><span>Live Preview</span></div>
         </div>
         <div className="new-project-body">
@@ -355,7 +355,7 @@ const handleWhatsApp = () => {
       {/* <!-- Card 3: Wheel Dice --> */}
       <a href="https://wheel-dice.vercel.app" target="_blank" rel="noopener" className="new-project-card reveal delay-3">
         <div className="new-project-thumb">
-          <img src={s3} alt="Wheel Dice" loading="lazy" />
+          <img src={s3} alt="Wheel Dice project" loading="lazy" />
           <div className="thumb-overlay"><span>Live Preview</span></div>
         </div>
         <div className="new-project-body">
