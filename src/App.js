@@ -441,11 +441,41 @@ const handleWhatsApp = () => {
         <div className="social-row reveal delay-4">
           <p>Find me on</p>
           <div className="social-icons">
-            <a href="https://github.com/balveerdev" className="soc-btn"><i className="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/balveer-solanki-67b488359" className="soc-btn"><i className="fab fa-linkedin-in"></i></a>
-            <a href="https://instagram.com/hiii_balveer" className="soc-btn"><i className="fab fa-instagram"></i></a>
-            <a href="https://t.me/Blackcode636" className="soc-btn"><i className="fab fa-telegram"></i></a>
-          </div>
+  <div
+    className="soc-btn"
+    onClick={() => window.open("https://github.com/balveerdev", "_blank", "noopener,noreferrer")}
+  >
+    <i className="fab fa-github"></i>
+  </div>
+
+  <div
+    className="soc-btn"
+    onClick={() =>
+      window.open(
+        "https://www.linkedin.com/in/balveer-solanki-67b488359",
+        "_blank", "noopener,noreferrer"
+      )
+    }
+  >
+    <i className="fab fa-linkedin-in"></i>
+  </div>
+
+  <div
+    className="soc-btn"
+    onClick={() =>
+      window.open("https://instagram.com/hiii_balveer", "_blank", "noopener,noreferrer")
+    }
+  >
+    <i className="fab fa-instagram"></i>
+  </div>
+
+  <div
+    className="soc-btn"
+    onClick={() => window.open("https://t.me/Blackcode636", "_blank", "noopener,noreferrer")}
+  >
+    <i className="fab fa-telegram"></i>
+  </div>
+</div>
         </div>
         </div>
       </div>
