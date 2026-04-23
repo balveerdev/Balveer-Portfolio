@@ -307,7 +307,7 @@ const handleWhatsApp = () => {
     <div className="new-projects-grid">
 
       {/* <!-- Featured: Shoes Store --> */}
-      <a href="https://swift-kicks-m9et.vercel.app" target="_blank" rel="noopener" className="new-project-card featured reveal delay-1">
+      <a href="https://swift-kicks-m9et.vercel.app" target="_blank" rel="noopener noreferrer" className="new-project-card featured reveal delay-1">
         <div className="new-project-thumb">
           <img src={s1} alt="Trendy Slick Pro project" loading="lazy" />
           <div className="thumb-overlay"><span>Live Preview</span></div>
@@ -331,7 +331,7 @@ const handleWhatsApp = () => {
       </a>
 
       {/* <!-- Card 2: Event Organiser --> */}
-      <a href="https://event-organiser-kappa.vercel.app" target="_blank" rel="noopener" className="new-project-card reveal delay-2">
+      <a href="https://event-organiser-kappa.vercel.app" target="_blank" rel="noopener noreferrer" className="new-project-card reveal delay-2">
         <div className="new-project-thumb">
           <img src={s2} alt="Solanki Events project" loading="lazy" />
           <div className="thumb-overlay"><span>Live Preview</span></div>
@@ -353,7 +353,7 @@ const handleWhatsApp = () => {
       </a>
 
       {/* <!-- Card 3: Wheel Dice --> */}
-      <a href="https://wheel-dice.vercel.app" target="_blank" rel="noopener" className="new-project-card reveal delay-3">
+      <a href="https://wheel-dice.vercel.app" target="_blank" rel="noopener noreferrer" className="new-project-card reveal delay-3">
         <div className="new-project-thumb">
           <img src={s3} alt="Wheel Dice project" loading="lazy" />
           <div className="thumb-overlay"><span>Live Preview</span></div>
